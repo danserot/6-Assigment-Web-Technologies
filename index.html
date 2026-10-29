@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basics | Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="js/basics.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="index.html">Assignment 6 · jQuery</a>
+    <nav class="site-nav" aria-label="Assignment parts">
+      <a href="index.html" aria-current="page">Basics</a><a href="effects.html">Effects</a><a href="dom.html">DOM</a><a href="animations.html">Animations</a><a href="project.html">Mini project</a>
+    </nav>
+  </div></header>
+  <main class="page">
+    <div class="page-intro"><span class="eyebrow">Part 1 · Tasks 0–1</span><h1>Getting started with jQuery</h1><p>Open the browser console to see the ready message, then try each selector.</p></div>
+    <section class="task" aria-labelledby="setup-title">
+      <span class="task-label">Task 0</span><h2 id="setup-title">Setup</h2>
+      <p>jQuery is loaded from its CDN. The code runs inside <span class="method">$(document).ready()</span>.</p>
+      <p class="note">Expected console output: <strong>jQuery is ready!</strong></p>
+    </section>
+    <section class="task" aria-labelledby="selectors-title">
+      <span class="task-label">Task 1</span><h2 id="selectors-title">Selectors and CSS</h2>
+      <p>Each button targets elements in the sample below by ID, class, or tag.</p>
+      <div class="demo" id="selector-demo">
+        <p id="id-example">This paragraph has an ID.</p>
+        <p class="class-example">This paragraph has a class.</p>
+        <p class="class-example">This one has the same class.</p>
+        <strong>All strong tags in this sample change together.</strong>
+      </div>
+      <div class="actions"><button class="button" id="change-id" type="button">ID: change text</button><button class="button" id="change-class" type="button">Class: change HTML</button><button class="button" id="change-tag" type="button">Tag: change CSS</button><button class="button secondary" id="reset-selectors" type="button">Reset</button></div>
+      <p class="note"><span class="method">#id</span><span class="method">.class</span><span class="method">tag</span><span class="method">.text()</span><span class="method">.html()</span><span class="method">.css()</span></p>
+    </section>
+  </main>
+  <footer class="site-footer">Assignment 6 · jQuery selectors, effects, DOM, and animations</footer>
+</body>
+</html>
