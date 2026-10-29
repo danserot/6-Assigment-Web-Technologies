@@ -2,6 +2,9 @@
 
 This is a small multi-page website for Assignment 6. It demonstrates jQuery selectors, effects, DOM manipulation, animations, and an accordion mini project. No build tool is needed.
 
+**Student:** Khloptsev Artem  
+**Group:** SE-2525
+
 ## Pages and tasks
 
 | Page | Tasks | What to try |
