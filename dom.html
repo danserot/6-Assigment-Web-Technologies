@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOM | Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="js/dom.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">Assignment 6 · jQuery</a><nav class="site-nav" aria-label="Assignment parts"><a href="index.html">Basics</a><a href="effects.html">Effects</a><a href="dom.html" aria-current="page">DOM</a><a href="animations.html">Animations</a><a href="project.html">Mini project</a></nav></div></header>
+  <main class="page">
+    <div class="page-intro"><span class="eyebrow">Part 3 · Tasks 5–7</span><h1>DOM manipulation</h1><p>Add elements, update attributes, and read values from a form.</p></div>
+    <section class="task" aria-labelledby="list-title"><span class="task-label">Task 5</span><h2 id="list-title">Add and remove items</h2><div class="demo"><ol class="demo-list" id="item-list"><li>Starting item</li></ol></div><div class="actions"><button class="button" id="append-item" type="button">Add at end</button><button class="button" id="prepend-item" type="button">Add at start</button><button class="button secondary" id="remove-item" type="button">Remove last</button></div><p class="note"><span class="method">.append()</span><span class="method">.prepend()</span><span class="method">.remove()</span></p></section>
+    <section class="task" aria-labelledby="attributes-title"><span class="task-label">Task 6</span><h2 id="attributes-title">Modify attributes</h2><div class="demo"><img class="preview-image" id="switch-image" src="assets/mountain.svg" alt="Illustrated mountain landscape" width="360" height="220"><p style="margin: 14px 0 0"><a id="switch-link" href="https://api.jquery.com/">Read the jQuery API</a></p></div><div class="actions"><button class="button" id="change-image" type="button">Change image</button><button class="button secondary" id="change-link" type="button">Change link</button></div><p class="note">The buttons update <span class="method">src</span> and <span class="method">href</span> with <span class="method">.attr()</span>.</p></section>
+    <section class="task" aria-labelledby="form-title"><span class="task-label">Task 7</span><h2 id="form-title">Form interaction</h2><form id="live-form" autocomplete="off"><label class="field"><span>Name</span><input id="name-input" name="name" type="text" placeholder="Your name"></label><label class="field"><span>Email</span><input id="email-input" name="email" type="email" placeholder="name@example.com"></label></form><div class="demo" aria-live="polite"><p>Name: <strong id="name-output">—</strong></p><p>Email: <strong id="email-output">—</strong></p></div><p class="note"><span class="method">.val()</span><span class="method">.text()</span></p></section>
+  </main><footer class="site-footer">Assignment 6 · jQuery selectors, effects, DOM, and animations</footer>
+</body>
+</html>

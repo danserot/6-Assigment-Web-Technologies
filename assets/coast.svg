@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Coastline">
+  <rect width="360" height="220" fill="#c7eaf7"/>
+  <circle cx="285" cy="48" r="27" fill="#ffdc87"/>
+  <path d="M0 108q90-12 180 1t180-2v113H0" fill="#65b4ca"/>
+  <path d="M0 134q110-15 190 1t170-4v89H0" fill="#348ba9"/>
+  <path d="M0 154q120-8 202 10t158-9v65H0" fill="#e8c98e"/>
+  <path d="M0 187q100-10 170 4t190-4v33H0" fill="#d6b376"/>
+  <path d="M58 117q12-44 40-64" fill="none" stroke="#7c6a52" stroke-width="8" stroke-linecap="round"/>
+  <path d="M95 58q-35-21-66 1 30-6 45 7M94 57q8-31 40-29-24 13-31 37M96 58q35-5 54 23-24-17-47-12" fill="#4c9a76"/>
+</svg>
