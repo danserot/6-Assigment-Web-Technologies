@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Mountain landscape">
+  <rect width="360" height="220" fill="#c8e5f7"/>
+  <circle cx="287" cy="49" r="27" fill="#ffe3a0"/>
+  <path d="M0 170 106 54l88 116" fill="#748fab"/>
+  <path d="m110 170 120-133 130 133" fill="#4d7595"/>
+  <path d="m80 83 26-29 22 29-20-10-10 13zM208 61l22-24 24 25-24-10-13 14z" fill="#f8fbff"/>
+  <path d="M0 164q75-22 145 5t215-11v62H0" fill="#6faf8c"/>
+  <path d="M0 190q89-13 168 4t192-8v34H0" fill="#3b8b78"/>
+</svg>
