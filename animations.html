@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animations | Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="js/animations.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">Assignment 6 · jQuery</a><nav class="site-nav" aria-label="Assignment parts"><a href="index.html">Basics</a><a href="effects.html">Effects</a><a href="dom.html">DOM</a><a href="animations.html" aria-current="page">Animations</a><a href="project.html">Mini project</a></nav></div></header>
+  <main class="page">
+    <div class="page-intro"><span class="eyebrow">Part 4 · Tasks 8–10</span><h1>jQuery animations</h1><p>Watch the boxes move. Reset lets you replay each example.</p></div>
+    <section class="task" aria-labelledby="basic-title"><span class="task-label">Task 8</span><h2 id="basic-title">Basic animation</h2><p>Increase size and move to the right with <span class="method">.animate()</span>.</p><div class="demo animation-stage"><div class="square" id="basic-square" aria-label="Orange square"></div></div><div class="actions"><button class="button" id="run-basic" type="button">Animate</button><button class="button secondary" id="reset-basic" type="button">Reset</button></div></section>
+    <section class="task" aria-labelledby="sequence-title"><span class="task-label">Task 9</span><h2 id="sequence-title">Sequential animation</h2><p>Move right → move down → shrink → return to the start. Each <span class="method">.animate()</span> call is queued after the previous one.</p><div class="demo animation-stage"><div class="square blue" id="sequence-square" aria-label="Blue square"></div></div><div class="actions"><button class="button" id="run-sequence" type="button">Animate sequence</button><button class="button secondary" id="reset-sequence" type="button">Reset</button></div></section>
+    <section class="task" aria-labelledby="combined-title"><span class="task-label">Task 10</span><h2 id="combined-title">Combined animation</h2><p>Opacity, size, and position change in one <span class="method">.animate()</span> call.</p><div class="demo animation-stage"><div class="square green" id="combined-square" aria-label="Green square"></div></div><div class="actions"><button class="button" id="run-combined" type="button">Animate together</button><button class="button secondary" id="reset-combined" type="button">Reset</button></div></section>
+  </main><footer class="site-footer">Assignment 6 · jQuery selectors, effects, DOM, and animations</footer>
+</body>
+</html>
