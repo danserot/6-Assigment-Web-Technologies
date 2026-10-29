@@ -29,3 +29,14 @@ Open `index.html` in a browser and use the navigation bar. An internet connectio
 - The accordion uses click events and slide effects, and updates `aria-expanded` so its state is clear to assistive technology.
 
 The illustrations in `assets/` are local SVG files. All examples use plain HTML, CSS, JavaScript, and jQuery.
+
+## Кратко для защиты
+
+1. В каждом HTML-файле сначала подключается jQuery из CDN, затем свой JS-файл. `defer` сохраняет этот порядок. Внутри `$(document).ready(...)` код ждёт загрузки HTML.
+2. На странице **Basics** кнопки выбирают элемент по ID (`#`), группе по классу (`.`) и тегу. `.text()` записывает обычный текст, `.html()` вставляет заранее заданную разметку, `.css()` меняет оформление.
+3. На странице **Effects** `hide/show/toggle` меняют видимость сразу, `fade*` меняют прозрачность плавно, `slide*` плавно меняют высоту блока.
+4. На странице **DOM** `.append()` добавляет элемент в конец списка, `.prepend()` в начало, `.remove()` удаляет. `.attr()` меняет `src` и `href`. `.val()` читает ввод, а `.text()` безопасно показывает его ниже формы.
+5. На странице **Animations** первый квадрат меняет размер и положение, второй выполняет четыре шага подряд, третий меняет несколько свойств одновременно. Кнопка Reset останавливает очередь и возвращает исходные значения.
+6. На странице **Mini project** аккордеон открывает один ответ за раз с помощью `slideToggle`; остальные закрываются через `slideUp`. `aria-expanded` показывает текущее состояние кнопки.
+
+Для сдачи по заданию нужно опубликовать проект через GitHub Pages или Netlify и отправить ссылку на репозиторий. Локальные коммиты сами по себе сайт не публикуют.
