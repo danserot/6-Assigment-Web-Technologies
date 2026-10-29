@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini project | Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="js/project.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">Assignment 6 · jQuery</a><nav class="site-nav" aria-label="Assignment parts"><a href="index.html">Basics</a><a href="effects.html">Effects</a><a href="dom.html">DOM</a><a href="animations.html">Animations</a><a href="project.html" aria-current="page">Mini project</a></nav></div></header>
+  <main class="page">
+    <div class="page-intro"><span class="eyebrow">Part 5 · Task 11</span><h1>Interactive accordion</h1><p>Open a question to reveal its answer. Only one section stays open at a time.</p></div>
+    <section class="task" aria-labelledby="project-title"><span class="task-label">Task 11 · Accordion menu</span><h2 id="project-title">jQuery quick guide</h2>
+      <div class="accordion" id="faq">
+        <div class="accordion-item"><h3><button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="answer-1" id="question-1">What is a selector?<span aria-hidden="true">+</span></button></h3><div class="accordion-panel" id="answer-1" role="region" aria-labelledby="question-1"><p>A selector finds elements on a page. For example, <span class="method">$('#title')</span> finds the element whose ID is <strong>title</strong>.</p></div></div>
+        <div class="accordion-item"><h3><button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="answer-2" id="question-2">What does .on('click') do?<span aria-hidden="true">+</span></button></h3><div class="accordion-panel" id="answer-2" role="region" aria-labelledby="question-2"><p>It registers a function that runs when the user clicks the selected element.</p></div></div>
+        <div class="accordion-item"><h3><button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="answer-3" id="question-3">How does slideToggle work?<span aria-hidden="true">+</span></button></h3><div class="accordion-panel" id="answer-3" role="region" aria-labelledby="question-3"><p><span class="method">.slideToggle()</span> expands a hidden panel or collapses a visible one with a vertical animation.</p></div></div>
+        <div class="accordion-item"><h3><button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="answer-4" id="question-4">Why use .stop() here?<span aria-hidden="true">+</span></button></h3><div class="accordion-panel" id="answer-4" role="region" aria-labelledby="question-4"><p><span class="method">.stop(true, true)</span> clears queued effects so repeated clicks do not leave a long animation queue.</p></div></div>
+      </div>
+      <p class="note" style="margin-top: 16px">This project uses <span class="method">.on()</span><span class="method">.slideUp()</span><span class="method">.slideToggle()</span> and updates <span class="method">aria-expanded</span>.</p>
+    </section>
+  </main><footer class="site-footer">Assignment 6 · jQuery selectors, effects, DOM, and animations</footer>
+</body>
+</html>
