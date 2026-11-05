@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  // Task 5: build one safe text node, then place it at the chosen end.
   var nextItem = 1;
   function makeItem() {
     var item = $('<li>');

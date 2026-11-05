@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  // Task 11: keep one accordion panel open and update its button state.
   $('.accordion-trigger').on('click', function () {
     var button = $(this);
     var panel = $('#' + button.attr('aria-controls'));
